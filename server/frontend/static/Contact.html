@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <style>
+      .contact-card {
+        width: 60%;
+        margin: 40px auto;
+        padding: 30px;
+        background: #f8f9fa;
+        border-radius: 20px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .contact-title {
+        font-size: 2rem;
+        color: rgb(97, 64, 128);
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      .contact-info {
+        font-size: 1.2rem;
+        color: #333;
+        margin-bottom: 10px;
+      }
+      .contact-icon {
+        width: 40px;
+        margin-bottom: 10px;
+      }
+      .contact-links a {
+        color: darkturquoise;
+        text-decoration: none;
+        margin-right: 15px;
+        font-weight: 500;
+      }
+      .contact-links a:hover {
+        text-decoration: underline;
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+    <div class="container-fluid">
+      <h2 style="padding-right: 5%;">Dealerships</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="contact-card">
+    <img src="/static/contactus.png" alt="Contact Icon" class="contact-icon">
+    <div class="contact-title">Contact Us</div>
+    <div class="contact-info"><strong>Address:</strong> 123 Main Street, Suite 400, New York, NY 10001</div>
+    <div class="contact-info"><strong>Phone:</strong> (212) 555-1234</div>
+    <div class="contact-info"><strong>Email:</strong> info@bestcarsdealership.com</div>
+    <div class="contact-info"><strong>Hours:</strong> Mon-Fri 9:00am - 6:00pm</div>
+    <div class="contact-links">
+      <a href="https://facebook.com/bestcarsdealership" target="_blank">Facebook</a>
+      <a href="https://twitter.com/bestcarsny" target="_blank">Twitter</a>
+      <a href="https://instagram.com/bestcarsdealership" target="_blank">Instagram</a>
+    </div>
+  </div>
+</body>
